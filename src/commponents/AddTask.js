@@ -19,7 +19,7 @@ const AddTask = () => {
       <Form>
         <Form.Group className='mb-3' controlId='formBasicEmail'>
           <Form.Label>Task Title</Form.Label>
-          <Form.Control type='text' required placeholder='Enter Task title ' value={title} onChange={(e) => setTitle(e.target.value)}/>
+          <Form.Control type='text'  required placeholder='Enter Task title ' value={title} onChange={(e) => setTitle(e.target.value)}/>
         </Form.Group>
         <Form.Group className='mb-3' controlId='formBasicEmail'>
           <Form.Label>Task Description</Form.Label>
